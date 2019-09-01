@@ -2,8 +2,8 @@ const field = [];
 
 function setup() {
   // put setup code here
-  defaultWidth = 500;
-  defaultHeight = 500;
+  let defaultWidth = 500;
+  let defaultHeight = 500;
   if (defaultWidth > windowWidth) {
     defaultWidth = windowWidth;
   }
